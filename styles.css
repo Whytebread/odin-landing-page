@@ -48,7 +48,15 @@ button {
     width: 100px;
 }
 
+.main-image {
+    width: 600px;
+    height: 300px;
+}
 
+.secondary-image {
+    width: 200px;
+    height: 200px;
+}
 
 footer {
     background-color: #1f2937;
