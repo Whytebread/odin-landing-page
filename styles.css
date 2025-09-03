@@ -1,4 +1,4 @@
-body {
+* {
     font-family: "Roboto";
 }
 
@@ -13,6 +13,7 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
 .main-text {
@@ -56,6 +57,7 @@ button {
 .secondary-image {
     width: 200px;
     height: 200px;
+    border: 5px solid #3882f6;
 }
 
 footer {
