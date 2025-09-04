@@ -11,7 +11,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
+
+.header-container {
+    justify-content: center;
+    align-items: center;
+}
+
 .links {
     text-decoration: none;
     list-style: none;
@@ -22,12 +29,14 @@
 .main-text {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8
+    color: #f9faf8;
+    margin-bottom: 5px;
 }
 
 .main-secondary-text {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 .main-content {
@@ -36,7 +45,12 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+    gap: 40px;
 
+}
+
+.main-left {
+    width: 500px;
 }
 
 .logo-text {
