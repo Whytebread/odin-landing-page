@@ -72,6 +72,7 @@
     color: #1f2937;
     font-weight: 900;
 }
+
 .card {
     display: block;
     width: 200px;
@@ -96,9 +97,16 @@ cite {
 button {
     background-color: #3882f6;
     padding: 10px;
-    color:#e5e7eb;
+    color: #e5e7eb;
     border-radius: 8px;
-    width: 100px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-button {
+    border-color: #e5e7eb;
+    border-style: solid;
 }
 
 .main-image {
@@ -113,9 +121,24 @@ button {
     border-radius: 10px;
 }
 
-.signup-section {
+.cta-container {
     background-color: #3882f6;
-    color: #f9faf8
+    color: #f9faf8;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+.cta-primary {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 footer {
@@ -123,4 +146,5 @@ footer {
     color: #e5e7eb;
     font-size: 18px;
     text-align: center;
+    padding: 40px;
 }
