@@ -46,13 +46,21 @@
 
 .secondary-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .secondary-heading {
     text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 .card {
     display: block;
+    width: 200px;
 }
 
 .quote-section {
@@ -87,6 +95,7 @@ button {
 
 .signup-section {
     background-color: #3882f6;
+    color: #f9faf8
 }
 
 footer {
